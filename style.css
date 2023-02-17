@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #15a6b3d2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+h1 {
+  font-size: 45px;
+}
+.highlight {
+  color: orange;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.half {
+  width: 40%;
+  margin: auto;
+  float: left;
+  margin-left: 6%;
+}
+.banner {
+  background-image: url("./assets/banner.png");
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 12px 30px;
+}
+.half p {
+  margin-bottom: 30px;
+}
+.hero {
+  float: left;
+  width: 44%;
+  margin-left: 80px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 20px;
+}
+.hero P {
+  margin-bottom: 30px;
+}
+.picture {
+  padding: 60px;
+}
+.developer {
+  background-image: url("./assets/hero.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 50vh;
+  margin-bottom: 300px;
+}
+.Experience > h2 {
+  text-align: centre;
+}
+.single {
+  box-shadow: 10px 10px 40px #808080;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  height: 60%;
+  text-align: center;
+  padding: 0 14px;
+}
+.Experience {
+  height: 700px;
+  background-image: url("./assets/experience.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#Full-Stack {
+  border-left: 4px solid #000;
+  border-image: linear-gradient(#3a1c71, #d76d77, #ffaf7b);
+  border-image-slice: 1;
+}
+#Learner {
+  border-left: 4px solid #000;
+  border-image: linear-gradient(#3a6186, #89253e);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  color: #181c32;
+}
